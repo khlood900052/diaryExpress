@@ -12,7 +12,7 @@ import json
 app = Flask(__name__)
 
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '123456'
+app.config['MYSQL_PASSWORD'] = 'samosa123'
 app.config['MYSQL_DB'] = 'scrum'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 app.config['JWT_SECRET_KEY'] = 'secret'
